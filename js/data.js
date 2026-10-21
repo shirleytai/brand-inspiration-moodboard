@@ -127,7 +127,7 @@ const ITEMS = [
   },
   {
     "id": 10,
-    "title": "涵香",
+    "title": "酒香",
     "category": 3,
     "image": "images/10.jpg",
     "description": "細筆中文字保留書寫感，以簡潔排版維持清爽節奏。",

@@ -26,7 +26,7 @@ js/data.js 的 ITEMS 管理 id、title、category、image、description、source
 - #07 山与 ← IMG_5091.JPG（分類 3）
 - #08 自然曲線符號 ← IMG_5092.JPG（分類 2）
 - #09 小物哲學 ← IMG_5093.JPG（分類 1）
-- #10 涵香 ← IMG_5094.JPG（分類 3）
+- #10 酒香 ← IMG_5094.JPG（分類 3）
 - #11 湖畔 Lakeside ← IMG_5109.JPG（分類 1）
 - #12 小食記 ← IMG_5095.JPG（分類 1）
 - #13 鹹花生 Salt Peanuts ← IMG_5096.JPG（分類 2）
