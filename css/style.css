@@ -8,3 +8,5 @@ nav{padding-inline:max(5vw,calc((100vw - 1440px)/2 + 5vw))}
 #shareDialog{padding:24px;max-width:560px}#shareLink{height:110px;overflow-wrap:anywhere}#shareFeedback{font-size:14px}.shareActions{display:flex;gap:8px;flex-wrap:wrap}.shareActions button{flex:1;white-space:nowrap}#copyShareLink{background:#262626;color:white}
 
 #subfilters{display:flex;gap:8px;overflow-x:auto;padding:0 0 22px}#subfilters[hidden]{display:none}#subfilters button{white-space:nowrap;background:transparent;border-radius:24px;padding:7px 16px}#subfilters button[aria-pressed=true]{background:#e5e5df;border-color:#aaa}#filters{scroll-padding-inline:18px}#filters button{flex-shrink:0}
+
+#detailTags[hidden]{display:none}

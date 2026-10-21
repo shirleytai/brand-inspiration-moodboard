@@ -500,13 +500,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "craft",
     "image": "images/34.jpg",
-    "description": "自由手畫線條、器物圖像或紙感紋理，呈現樸實而有溫度的視覺。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以室內照片搭配黑色細線手繪，將燈具、桌面與器物延伸到留白中。照片提供真實材質，插畫則帶出輕鬆的生活感，可參考作為首頁情境圖或品牌故事的呈現方式。",
     "source": "IMG_5120.JPG",
     "width": 1200,
     "height": 1600,
-    "tags": [
-      "版畫與手作風"
-    ]
+    "tags": []
   },
   {
     "id": 35,
@@ -514,13 +512,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "craft",
     "image": "images/35.jpg",
-    "description": "自由手畫線條、器物圖像或紙感紋理，呈現樸實而有溫度的視覺。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "將閱讀角落的暖色照片與桌燈、桌椅輪廓相接，搭配自由排列的手寫文字。圖像沒有被限制在方框內，讓畫面像生活筆記，適合表達親近、隨性的品牌氣氛。",
     "source": "IMG_5121.JPG",
     "width": 884,
     "height": 1016,
-    "tags": [
-      "版畫與手作風"
-    ]
+    "tags": []
   },
   {
     "id": 36,
@@ -542,13 +538,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/37.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以米色底、大幅陶器靜物照與細緻文字建立安靜的首頁。下方依序安排商品列與品牌故事，讓產品展示和內容介紹有清楚層次；可參考其色彩一致性與區塊節奏。",
     "source": "IMG_5123.JPG",
     "width": 1200,
     "height": 1635,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 38,
@@ -556,13 +550,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/38.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以暖米色背景、柔和側光和大量留白凸顯木器的紋理。不同大小的照片與細小文字錯落安排，像雜誌專題頁，適合用來介紹單件作品的細節與工藝。",
     "source": "IMG_5124.JPG",
     "width": 1200,
     "height": 2133,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 39,
@@ -570,13 +562,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/39.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "上方以深綠森林與小型文字營造安靜氣氛，下方切換成日光照射的抹茶與木桌近景。遠景與近景的對照，將自然環境連結到日常使用情境，可參考作為品牌故事的影像順序。",
     "source": "IMG_5125.JPG",
     "width": 1080,
     "height": 1440,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 40,
@@ -584,13 +574,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/40.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以建築情境照開場，搭配米白底、細字與整齊的商品區塊。版面透過規律間距串起空間、家具及選物，適合參考官網如何兼顧整體氛圍與商品瀏覽。",
     "source": "IMG_5126.JPG",
     "width": 1200,
     "height": 2342,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 41,
@@ -598,13 +586,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "country",
     "image": "images/41.jpg",
-    "description": "暖色、木質與復古家具構成悠閒氛圍，觀察空間影像與版面的搭配。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "大字標題與木質空間照片形成鮮明開場，下方以整齊網格展示家具。復古家具、自然材質與暖色影像帶出悠閒氣氛，可參考其情境照片與單品展示的轉換。",
     "source": "IMG_5127.JPG",
     "width": 1200,
     "height": 2254,
-    "tags": [
-      "法式鄉村風"
-    ]
+    "tags": []
   },
   {
     "id": 42,
@@ -612,13 +598,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/42.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以淺色背景和規律排列的器物照片建立清楚的商品目錄，旁邊搭配精簡說明；家具區則放大單品、保留更多空白。可參考如何用不同圖文比例凸顯商品類型與形體。",
     "source": "IMG_5128.JPG",
     "width": 1199,
     "height": 726,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 43,
@@ -626,13 +610,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/43.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以白底、大幅家具去背圖及簡短文字構成首頁，讓家具輪廓成為主角。下方品牌介紹延續寬鬆間距與小型圖文，呈現克制、乾淨的閱讀節奏。",
     "source": "IMG_5129.JPG",
     "width": 1000,
     "height": 1280,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 44,
@@ -640,13 +622,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/44.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以自然色調的居家情境作為主視覺，下方用簡短介紹與小型照片網格延伸內容。米白背景、木質與植物保持一致，適合參考生活選物品牌如何串連空間和商品。",
     "source": "IMG_5130.JPG",
     "width": 1200,
     "height": 2070,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 45,
@@ -654,13 +634,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "country",
     "image": "images/45.jpg",
-    "description": "暖色、木質與復古家具構成悠閒氛圍，觀察空間影像與版面的搭配。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "上方以米色背景陳列不同家具，下方轉入帶有復古家具、地毯與木質細節的室內全景。單品與空間交替出現，讓人理解產品如何融入生活，可參考其溫暖而有年代感的搭配。",
     "source": "IMG_5131.JPG",
     "width": 1199,
     "height": 1237,
-    "tags": [
-      "法式鄉村風"
-    ]
+    "tags": []
   },
   {
     "id": 46,
@@ -668,13 +646,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "country",
     "image": "images/46.jpg",
-    "description": "暖色、木質與復古家具構成悠閒氛圍，觀察空間影像與版面的搭配。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以大幅客廳照片搭配醒目標題，強調家具在空間中的存在感；下方再穿插器物近景與人物工作照。暖色光線、布料和木質表面共同形成悠閒氣氛，兼顧產品與生活故事。",
     "source": "IMG_5132.JPG",
     "width": 1200,
     "height": 1497,
-    "tags": [
-      "法式鄉村風"
-    ]
+    "tags": []
   },
   {
     "id": 47,
@@ -682,13 +658,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/47.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以陶盤近拍、米色底及大小交錯的字體構成首頁，再銜接陶器商品列。背景與器物的土色相近，視覺柔和統一；可參考如何讓產品材質成為整站的色彩來源。",
     "source": "IMG_5133.JPG",
     "width": 1199,
     "height": 1499,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 48,
@@ -696,13 +670,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/48.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以清楚分隔的內容區塊安排情境照片、色票、商品網格與品牌介紹。大量淺色留白讓不同類型的家具與器物仍保持秩序，適合參考商品較多時的版面層級。",
     "source": "IMG_5134.JPG",
     "width": 1200,
     "height": 2202,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 52,
@@ -710,13 +682,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "craft",
     "image": "images/52.jpg",
-    "description": "自由手畫線條、器物圖像或紙感紋理，呈現樸實而有溫度的視覺。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以粗糙、不規則的黑色門框插畫包住真實室內照片，搭配米色底與簡短標題。手畫輪廓和攝影的對比，讓空間介紹多一點趣味，適合參考品牌首頁的主視覺構成。",
     "source": "IMG_5138.JPG",
     "width": 1200,
     "height": 1500,
-    "tags": [
-      "版畫與手作風"
-    ]
+    "tags": []
   },
   {
     "id": 53,
@@ -724,13 +694,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "craft",
     "image": "images/53.jpg",
-    "description": "自由手畫線條、器物圖像或紙感紋理，呈現樸實而有溫度的視覺。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以灰黑色器物插畫、石頭般的色塊與紙感紋理組成畫面。元素疏落分布、尺寸大小不同，留白帶出樸實感，可參考作為背景圖案、章節分隔或品牌裝飾語彙。",
     "source": "IMG_5139.JPG",
     "width": 1200,
     "height": 800,
-    "tags": [
-      "版畫與手作風"
-    ]
+    "tags": []
   },
   {
     "id": 54,
@@ -738,13 +706,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/54.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "上方以陶杯近拍搭配簡短標題，下方採整齊商品列呈現不同器物。柔和自然光與灰米色背景讓材質清楚可見，適合參考陶器官網如何由情境引導至商品。",
     "source": "IMG_5140.JPG",
     "width": 756,
     "height": 1000,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 55,
@@ -752,13 +718,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/55.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以白底、細小文字、空間照片與手繪圖標交錯編排，呈現生活刊物般的內容感。大小不同的照片讓頁面有閱讀節奏，可參考品牌如何把空間、人物與文章整合到首頁。",
     "source": "IMG_5141.JPG",
     "width": 1200,
     "height": 2361,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 56,
@@ -766,13 +730,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/56.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以柔和的居家照片開場，搭配直排文字、小型插畫與細緻分隔。下方以文章卡片延伸生活內容，適合參考如何讓官網兼具品牌氛圍與可持續更新的閱讀內容。",
     "source": "IMG_5142.JPG",
     "width": 564,
     "height": 1128,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 57,
@@ -780,13 +742,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/57.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "大幅明亮室內照片放在頁首，下方以白底網格排列碗盤與小型商品資訊。細線導覽和寬鬆間距讓產品容易辨認，可參考乾淨的購物首頁與自然採光風格。",
     "source": "IMG_5143.JPG",
     "width": 640,
     "height": 900,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 58,
@@ -794,13 +754,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/58.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以長頁面串連空間攝影、手繪圖像、地圖及文字介紹，各區塊保持留白。整體像一篇介紹場所的專題，可參考如何用不同內容形式延伸同一個品牌故事。",
     "source": "IMG_5144.JPG",
     "width": 563,
     "height": 712,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 60,
@@ -808,13 +766,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/60.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "將家具、燈具與空間照片依主題分成清楚區塊，搭配簡潔標題與小型商品圖。白底和一致的間距維持秩序，可參考如何整理品項較多的首頁，同時保留情境感。",
     "source": "IMG_5146.JPG",
     "width": 1200,
     "height": 1725,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 61,
@@ -822,13 +778,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/61.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以山景與小型品牌標誌開場，下方結合手繪地圖、直排文字及生活內容。自然風景和細緻圖文讓頁面像地方刊物，可參考如何表達品牌與所在地的連結。",
     "source": "IMG_5147.JPG",
     "width": 1200,
     "height": 1298,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 62,
@@ -836,13 +790,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/62.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以街景招牌照片建立場所印象，下方穿插建築、食物與空間影像，並用細線圖形與文字補充。可參考如何以雜誌式的圖文節奏介紹餐飲、選物或生活空間。",
     "source": "IMG_5148.JPG",
     "width": 1000,
     "height": 1577,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 63,
@@ -850,13 +802,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/63.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以黑白陶器近拍與暖米色器物照交錯排列，搭配大量留白及細小文字。不同光線與材質形成細膩對比，可參考如何以近景攝影凸顯作品質地，同時保持版面安靜。",
     "source": "IMG_5149.JPG",
     "width": 1080,
     "height": 1920,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   },
   {
     "id": 64,
@@ -864,13 +814,11 @@ const ITEMS = [
     "category": "web",
     "subcategory": "magazine",
     "image": "images/64.jpg",
-    "description": "照片、短文與留白交錯，觀察生活敘事與圖文節奏。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "深綠色主視覺結合店面、人物攝影與小型手繪元素，再以不規則邊界切換至淺色內容區。下方圖文和圓形資訊塊讓頁面更有變化，適合參考帶有地方生活感的品牌網站。",
     "source": "IMG_5150.JPG",
     "width": 768,
     "height": 1365,
-    "tags": [
-      "日系雜誌風"
-    ]
+    "tags": []
   },
   {
     "id": 65,
@@ -878,12 +826,10 @@ const ITEMS = [
     "category": "web",
     "subcategory": "minimal",
     "image": "images/65.jpg",
-    "description": "以節制配色、整齊編排與自然材質，呈現清楚、安靜的產品展示。 此為靜態參考圖，互動效果需另行設計。",
+    "description": "以黑白海岸攝影和器物輪廓建立安靜的開場，下方轉為黑底、金色文字與作品照片。深淺區塊的對比凸顯作品與故事，可參考藝術或工藝品牌如何營造沉靜的展示氛圍。",
     "source": "IMG_5151.JPG",
     "width": 735,
     "height": 1005,
-    "tags": [
-      "無印簡約風"
-    ]
+    "tags": []
   }
 ];
