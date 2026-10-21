@@ -558,9 +558,9 @@ const ITEMS = [
   },
   {
     "id": 39,
-    "title": "日系雜誌風參考 06",
+    "title": "無印簡約風參考 06",
     "category": "web",
-    "subcategory": "magazine",
+    "subcategory": "minimal",
     "image": "images/39.jpg",
     "description": "上方以深綠森林與小型文字營造安靜氣氛，下方切換成日光照射的抹茶與木桌近景。遠景與近景的對照，將自然環境連結到日常使用情境，可參考作為品牌故事的影像順序。",
     "source": "IMG_5125.JPG",
