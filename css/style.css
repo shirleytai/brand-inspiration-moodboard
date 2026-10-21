@@ -4,3 +4,5 @@ nav{padding-inline:max(5vw,calc((100vw - 1440px)/2 + 5vw))}
 @media(max-width:650px){nav{padding-inline:18px}}
 
 #detailTags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}#detailTags span{font-size:13px;padding:3px 10px;background:#f2f2ef;border-radius:20px;color:#666}
+
+#shareDialog{padding:24px;max-width:560px}#shareLink{height:110px;overflow-wrap:anywhere}#shareFeedback{font-size:14px}.shareActions{display:flex;gap:8px;flex-wrap:wrap}.shareActions button{flex:1;white-space:nowrap}#copyShareLink{background:#262626;color:white}

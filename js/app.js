@@ -23,4 +23,17 @@ $('#viewSelected').onclick=()=>{filter=4;render();window.scrollTo({top:0,behavio
 function selectionText(){return '品牌設計參考圖｜案主喜好選擇\n\n'+ITEMS.filter(x=>selected.has(x.id)).map(x=>`- #${String(x.id).padStart(2,'0')} ${x.title}`).join('\n')+`\n\n共選擇 ${selected.size} 張。`}
 async function copy(text,title){try{await navigator.clipboard.writeText(text);toast('已複製，請貼上回傳給設計師')}catch{$('#copyTitle').textContent=title;$('#copyDialog textarea').value=text;$('#copyDialog').showModal();$('#copyDialog textarea').select()}}
 $('#closeCopy').onclick=()=>$('#copyDialog').close();
-$('#share').onclick=async()=>{if(!/^https?:$/.test(location.protocol)){await copy(selectionText(),'本機檔案請複製清單回傳');return}const url=new URL(location.href);url.searchParams.set('selected',[...selected].sort((a,b)=>a-b).join(','));url.hash='';if(navigator.share){try{await navigator.share({title:'我的品牌設計方向',text:selectionText(),url:url.href});return}catch(e){if(e.name==='AbortError')return}}await copy(url.href,'複製分享連結')};render();
+let sharePayload=null;
+$('#share').onclick=()=>{
+ const web=/^https?:$/.test(location.protocol);const url=new URL(location.href);url.searchParams.set('selected',[...selected].sort((a,b)=>a-b).join(','));url.hash='';
+ sharePayload={title:'我的品牌設計方向',text:selectionText(),url:url.href};
+ $('#shareSummary').textContent=`已選擇 ${selected.size} 張圖片。`+(selected.size?'':'尚未勾選圖片，可先關閉視窗選圖。');
+ $('#shareLink').value=web?url.href:selectionText();$('#shareFeedback').textContent=web?'連結包含這次的勾選結果，不會自動回傳。':'本機檔案請複製文字清單回傳。';
+ $('#systemShare').hidden=!web||typeof navigator.share!=='function';$('#shareDialog').showModal();
+};
+$('#copyShareLink').onclick=async()=>{
+ try{await navigator.clipboard.writeText($('#shareLink').value);$('#shareFeedback').textContent='已複製！請貼到 LINE 或 Email 傳給設計師。'}
+ catch{$('#shareLink').focus();$('#shareLink').select();$('#shareFeedback').textContent='瀏覽器無法自動複製，已選取內容，請長按或按 ⌘C／Ctrl+C 複製。'}
+};
+$('#systemShare').onclick=async()=>{try{await navigator.share(sharePayload);$('#shareFeedback').textContent='已完成系統分享操作。'}catch(e){$('#shareFeedback').textContent=e.name==='AbortError'?'已取消系統分享，仍可使用「複製連結」。':'無法開啟系統分享，請改用「複製連結」。'}};
+$('#closeShare').onclick=()=>$('#shareDialog').close();render();
