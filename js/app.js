@@ -30,7 +30,7 @@ $('#share').onclick=()=>{
  const web=/^https?:$/.test(location.protocol);const url=new URL(location.href);url.searchParams.set('selected',[...selected].sort((a,b)=>a-b).join(','));url.hash='';
  sharePayload={title:'我的品牌設計方向',text:`共選擇 ${selected.size} 張圖片。`,url:url.href};
  $('#shareSummary').textContent=`已選擇 ${selected.size} 張圖片。`+(selected.size?'':'尚未勾選圖片，可先關閉視窗選圖。');
- $('#shareLink').value=web?url.href:selectionText();$('#shareFeedback').textContent=web?'連結包含這次的勾選結果，不會自動回傳。':'本機檔案請複製文字清單回傳。';
+ $('#shareLink').value=web?`共選擇 ${selected.size} 張圖片。\n${url.href}`:`共選擇 ${selected.size} 張圖片。`; $('#shareFeedback').textContent=web?'連結包含這次的勾選結果，不會自動回傳。':'本機檔案請複製文字清單回傳。';
  $('#systemShare').hidden=!web||typeof navigator.share!=='function';$('#shareDialog').showModal();
 };
 $('#copyShareLink').onclick=async()=>{
