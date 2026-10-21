@@ -1,5 +1,5 @@
 'use strict';
-const CATEGORIES=[["全部圖片", "先看看你喜歡以文字、圖形，還是兩者融合來呈現品牌。可以跨類勾選，不必只選一種方向。"], ["文字主角", "第一眼先看到品牌名稱，特色來自字體、字形或書寫筆觸。適合想讓人先記住名字的方向。"], ["圖形主角", "第一眼先看到獨立的山、水、植物、人物或抽象符號；品牌文字在旁輔助，圖形可以單獨辨認。"], ["字圖融合", "文字本身也帶有圖像：筆畫化成山形、屋頂或角色，字與圖結合成同一個識別。"], ["已選圖片", "這些是你喜歡的方向。透過分享連結或複製清單回傳給設計師。"]];
+const CATEGORIES=[["全部圖片", "先看看你喜歡以文字、圖形，還是兩者融合來呈現品牌。可以跨類勾選，不必只選一種方向。"], ["文字主角", "第一眼先看到品牌名稱，特色來自字體、字形或書寫筆觸。適合想讓人先記住名字的方向。"], ["圖形主角", "第一眼先看到獨立的山、水、植物、人物或抽象符號；品牌文字在旁輔助，圖形可以單獨辨認。"], ["字圖融合", "文字本身也帶有圖像：筆畫化成山形、屋頂或角色，字與圖結合成同一個識別。"], ["已選圖片", "這些是你喜歡的方向。透過「分享我的選擇」回傳給設計師。"]];
 const $=s=>document.querySelector(s),KEY='yuwu-moodboard-v1';let selected=new Set(),filter=0,current=null,opener=null,timer;
 const valid=v=>Array.isArray(v)?v.map(Number).filter(n=>Number.isInteger(n)&&ITEMS.some(x=>x.id===n)):[];
 try{selected=new Set(valid(JSON.parse(localStorage.getItem(KEY)||'[]')))}catch{}
@@ -22,5 +22,5 @@ $('#detail').addEventListener('keydown',e=>{if(e.key==='ArrowLeft')step(-1);if(e
 $('#viewSelected').onclick=()=>{filter=4;render();window.scrollTo({top:0,behavior:'smooth'})};$('#clear').onclick=()=>{selected.clear();save();render();if(current!==null)$('#detailLike').checked=false;toast('已清除選擇')};
 function selectionText(){return '品牌設計參考圖｜案主喜好選擇\n\n'+ITEMS.filter(x=>selected.has(x.id)).map(x=>`- #${String(x.id).padStart(2,'0')} ${x.title}`).join('\n')+`\n\n共選擇 ${selected.size} 張。`}
 async function copy(text,title){try{await navigator.clipboard.writeText(text);toast('已複製，請貼上回傳給設計師')}catch{$('#copyTitle').textContent=title;$('#copyDialog textarea').value=text;$('#copyDialog').showModal();$('#copyDialog textarea').select()}}
-$('#copyList').onclick=()=>copy(selectionText(),'複製選圖清單');$('#closeCopy').onclick=()=>$('#copyDialog').close();
+$('#closeCopy').onclick=()=>$('#copyDialog').close();
 $('#share').onclick=async()=>{if(!/^https?:$/.test(location.protocol)){await copy(selectionText(),'本機檔案請複製清單回傳');return}const url=new URL(location.href);url.searchParams.set('selected',[...selected].sort((a,b)=>a-b).join(','));url.hash='';if(navigator.share){try{await navigator.share({title:'我的品牌設計方向',text:selectionText(),url:url.href});return}catch(e){if(e.name==='AbortError')return}}await copy(url.href,'複製分享連結')};render();
